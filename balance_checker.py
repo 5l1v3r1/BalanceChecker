@@ -49,7 +49,7 @@ def run_bot():
         print(datetime.datetime.now())
         print("#####################################################################################")
         print(msg)
-        # send_email("One or more accounts have no enought tokens", msg)
+        send_email("One or more accounts have no enought tokens", msg)
 
 s.enter(refresh_rate, 1, run_bot)
 
